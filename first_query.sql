@@ -1,0 +1,1 @@
+select * from `eco-rune-459817-m9.raw_rides.corse`
