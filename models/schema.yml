@@ -1,10 +1,19 @@
 version: 2
 
 models:
-  - name: deleted_dim
+  - name: corse_fatti.sql
     columns:
+      - name: id_corsa
+        tests:
+          - not_null
+          - unique
+
+  - name: deleted_dim.sql
+    columns: 
       - name: motivo
         tests:
           - not_null
           - unique
+          
+
           
