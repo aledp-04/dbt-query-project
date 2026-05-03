@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: deleted_dim
+    columns:
+      - name: motivo
+        tests:
+          - not_null
+          - unique
+          

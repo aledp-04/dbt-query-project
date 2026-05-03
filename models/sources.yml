@@ -1,0 +1,15 @@
+sources:
+    - name: BigQuery
+      description: This is a replica of the BigQuery database used by our app
+      database: eco-rune-459817-m9
+      schema: raw_rides
+      tables:
+          - name: corse
+          - name: locali
+          - name: clienti
+          - name: riders
+          - name: corse_richieste
+          - name: corse_accettate
+          - name: corse_iniziate
+          - name: corse_completate
+          - name: corse_cancellate
